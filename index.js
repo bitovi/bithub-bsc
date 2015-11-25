@@ -25,7 +25,7 @@ var State = can.Map.extend({
 	isAdmin(){
 		return false;
 	},
-	assetRoot: "/bsc/",
+	assetRoot: "/bithub-bsc/",
 	hubId: 1
 });
 
