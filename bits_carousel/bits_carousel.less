@@ -1,0 +1,86 @@
+bh-bits-carousel {
+    width: 100%;
+    display: block;
+    position: relative;
+    .outer-carousel-wrap {
+        margin: 0px 25px -20px;
+        overflow: hidden;
+        padding: 10px 0;
+    }
+    .inner-carousel-wrap {
+        transition: margin-left 0.5s ease-in-out;
+    }
+    .outer-card-wrap {
+        float: left;
+        width: 350px;
+        bh-bit-carousel .bit-wrap {
+            margin-top: 0;
+            margin-left: 15px;
+            margin-right: 15px;
+            height: 100% !important;
+            border: 2px solid white;
+            border-radius: 5px;
+            box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+            &.loading {
+                background-image: url(../images/card-loader-blue.gif);
+            }
+        }
+        img {
+            max-width: 100%;
+        }
+    }
+    bh-image-gallery {
+        .current-image-wrap {
+            height: 300px;
+            overflow: hidden;
+        }
+    }
+    .carousel-prev, .carousel-next {
+        border-radius: 100%;
+        background: #4a7c8d;
+        color: white;
+        width: 34px;
+        height: 34px;
+        position: absolute;
+        font-size: 25px;
+        line-height: 50px;
+        text-align: center;
+        z-index: 100;
+        cursor: pointer;
+        background-repeat: no-repeat;
+        top: 50%;
+        margin-top: -17px;
+        background-size: 30px;
+        
+    }
+
+    .carousel-prev {
+        left: 0;
+        margin-left: -17px;
+        background-image: url(../images/bithub-site_test-hub-arrow-left.svg);
+        background-position: 50% 50%;
+    }
+
+    .carousel-next {
+        right: 0;
+        margin-right: -17px;
+        background-image: url(../images/bithub-site_test-hub-arrow-right.svg);
+        background-position: 50% 50%;
+    }
+    .loading-wrap {
+        text-align: center;
+        float: left;
+        background-image: url(../images/card-loader-blue.gif);
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+        border-radius: 5px;
+		    -moz-border-radius: 5px;
+		    -webkit-border-radius: 5px;
+        /*border: 1px solid #71b5c5;*/
+        .image {
+            padding-bottom: 85%;
+            margin-bottom: 155px;
+        }
+    }
+}
+

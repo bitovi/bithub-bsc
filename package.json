@@ -1,0 +1,29 @@
+{
+  "name": "bithub-homepage-carousel",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bitovi/bithub-homepage-carousel.git"
+  },
+  "author": "",
+  "license": "-",
+  "bugs": {
+    "url": "https://github.com/bitovi/bithub-homepage-carousel/issues"
+  },
+  "homepage": "https://github.com/bitovi/bithub-homepage-carousel",
+  "dependencies": {
+    "jquery": "^2.1.4",
+    "moment": "^2.10.3",
+    "bootstrap": "^3.3.5",
+    "font-awesome": "^4.4.0",
+    "lodash-amd": "^3.10.1",
+    "steal": "^0.12.0-pre.10",
+    "steal-tools": "^0.12.0-pre.5",
+    "can": "^2.3.0-beta.5"
+  }
+}
